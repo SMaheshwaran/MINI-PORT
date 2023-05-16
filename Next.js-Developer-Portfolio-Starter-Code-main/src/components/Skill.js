@@ -1,7 +1,7 @@
 import React from 'react'
 import {motion} from "framer-motion"
 
-const Skill = ({name,x,y}) => {
+const Skills = ({name,x,y}) => {
 
   return(
     <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light
@@ -19,7 +19,7 @@ const Skill = ({name,x,y}) => {
   )
 }
 
-const Skills = () => {
+const Skill = () => {
   return (
     <>
     <h2 className='w-full mt-64 font-bold text-center text-8xl md:text-6xl md:mt-32'>Skills</h2>
@@ -52,4 +52,4 @@ const Skills = () => {
   )
 }
 
-export default Skills 
+export default Skills

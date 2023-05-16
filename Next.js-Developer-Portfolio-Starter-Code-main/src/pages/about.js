@@ -5,7 +5,7 @@ import Layout from '@/components/Layout'
 import profilepicture from "../../public/images/profile/image 3.jpg";
 import Image from 'next/image'
 import { useMotionValue, useInView, useSpring } from 'framer-motion';
-import Skills from '@/components/skills';
+import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
 import Education from '@/components/Education'
 import TransitionEffect from '@/components/TransitionEffect';
